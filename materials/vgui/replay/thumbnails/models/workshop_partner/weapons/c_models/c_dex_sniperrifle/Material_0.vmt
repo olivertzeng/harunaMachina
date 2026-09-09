@@ -2,4 +2,70 @@
 {
 	"$basetexture" "vgui/replay/thumbnails/models/workshop_partner/weapons/c_models/c_dex_sniperrifle/Material_0"
     "$bumpmap" "vgui/replay/thumbnails/models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle_normal"
+
+	"$phong" "1"
+	"$phongexponent" "18"
+	"$phongboost" "2"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$tempvar" "0"
+
+	"$basephongexponent" "25"
+	"$basephongboost" "5"
+
+	"$commadd_phongexponent" "40"
+	"$commadd_phongboost" 	"22.5"
+	"$commweapon"		"0"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"$sheenPassEnabled" "1"
+
+	"$sheenmap" 		"cubemaps\cubemap_sheen001"
+	"$sheenmapmask" 		"Effects\AnimatedSheen\animatedsheen0"
+	"$sheenmaptint" 		"[ 1 1 1 ]"
+	"$sheenmapmaskframe" 	"0"
+	"$sheenindex" 		"0"
+
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"AnimatedWeaponSheen"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"40"
+		}
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
 }

@@ -1,6 +1,6 @@
 "VertexlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/models/workshop_partner/weapons/c_models/c_dex_sniperrifle/Material_0"
+	"$basetexture" "vgui/replay/thumbnails/models/workshop_partner/weapons/c_models/c_dex_sniperrifle/Material_1"
     "$bumpmap" "vgui/replay/thumbnails/models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle_normal"
 
 	"$phong" "1"

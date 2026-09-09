@@ -1,0 +1,12 @@
+{
+  "uid": "fce3850f0e264b32b74caa083f40f954",
+  "name": "[Blue Archive Weapon] - Kurodate Haruna",
+  "file_name": "[Blue_Archive_Weapon]_-_Kurodate_Haruna",
+  "author": "yochan.176",
+  "description": "Kurodate Haruna Weapon - Ideal\nExtracted from in-game file, ALL COPYRIGHTS GOES TO NEXON GAMES &amp; NAT GAMES",
+  "source_url": "https://sketchfab.com/3d-models/blue-archive-weapon-kurodate-haruna-fce3850f0e264b32b74caa083f40f954",
+  "output": "/home/olivertzeng/sketchfab-cli/downloads/[Blue_Archive_Weapon]_-_Kurodate_Haruna-fce3850f/[Blue_Archive_Weapon]_-_Kurodate_Haruna.gltf",
+  "format": "gltf",
+  "textures": 2,
+  "note": "Prefer glTF via osgconv; fallback pure-python glTF; textures in textures/"
+}

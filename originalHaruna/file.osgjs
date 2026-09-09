@@ -1,0 +1,291 @@
+{
+  "Generator": "OpenSceneGraph 3.5.6",
+  "Version": 9,
+  "osg.Node": {
+    "Children": [ {
+      "osg.Node": {
+        "UniqueID": 0,
+        "Name": "Haruna_Original_Weapon.obj.cleaner.materialmerger.gles",
+        "Children": [ {
+          "osg.Node": {
+            "UniqueID": 2,
+            "Name": "Haruna_Original_Weapon",
+            "Children": [ {
+              "osg.Geometry": {
+                "UniqueID": 3,
+                "PrimitiveSetList": [ {
+                  "DrawElementsUInt": {
+                    "UniqueID": 13,
+                    "Indices": {
+                      "UniqueID": 14,
+                      "Array": { 
+                        "Uint32Array": { 
+                          "File": "model_file.bin",
+                          "Size": 2754,
+                          "Offset": 0,
+                          "Encoding": "varint"
+                        }
+                      },
+                      "ItemSize": 1,
+                      "Type": "ELEMENT_ARRAY_BUFFER"
+                    },
+                    "Mode": "TRIANGLE_STRIP"
+                  }
+                } ],
+                "StateSet": {
+                  "osg.StateSet": {
+                    "UniqueID": 4,
+                    "AttributeList": [ {
+                      "osg.Material": {
+                        "UniqueID": 7,
+                        "Name": "Default_OBJ",
+                        "Ambient": [ 1, 1, 1, 1],
+                        "Diffuse": [ 0.8, 0.8, 0.8, 1],
+                        "Emission": [ 0, 0, 0, 1],
+                        "Shininess": 32,
+                        "Specular": [ 0.5, 0.5, 0.5, 1]
+                      }
+                    } ],
+                    "TextureAttributeList": [ [ {
+                      "osg.Texture": {
+                        "UniqueID": 6,
+                        "File": "textures/f4352e64ff394e10b24c9fc852bf3262/5351ebd9918649c894d099a267d9151c.png",
+                        "MagFilter": "LINEAR",
+                        "MinFilter": "LINEAR_MIPMAP_LINEAR",
+                        "WrapS": "REPEAT",
+                        "WrapT": "REPEAT"
+                      }
+                    } ] ],
+                    "UserDataContainer": {
+                      "UniqueID": 5,
+                      "Values": [ {
+                        "Name": "source",
+                        "Value": "wavefront"
+                      },
+                      {
+                        "Name": "ka",
+                        "Value": "[ 1, 1, 1]"
+                      },
+                      {
+                        "Name": "kd",
+                        "Value": "[ 0.8, 0.8, 0.8]"
+                      },
+                      {
+                        "Name": "ks",
+                        "Value": "[ 0.5, 0.5, 0.5]"
+                      },
+                      {
+                        "Name": "ns",
+                        "Value": "250"
+                      },
+                      {
+                        "Name": "sharpness",
+                        "Value": "0"
+                      },
+                      {
+                        "Name": "emissive",
+                        "Value": "[ 0, 0, 0]"
+                      },
+                      {
+                        "Name": "tr",
+                        "Value": "1"
+                      },
+                      {
+                        "Name": "map_kd",
+                        "Value": "0"
+                      },
+                      {
+                        "Name": "UniqueID",
+                        "Value": "1"
+                      } ]
+                    }
+                  }
+                },
+                "UserDataContainer": {
+                  "UniqueID": 8,
+                  "Values": [ {
+                    "Name": "attributes",
+                    "Value": "55"
+                  },
+                  {
+                    "Name": "vertex_bits",
+                    "Value": "16"
+                  },
+                  {
+                    "Name": "vertex_mode",
+                    "Value": "3"
+                  },
+                  {
+                    "Name": "uv_0_bits",
+                    "Value": "14"
+                  },
+                  {
+                    "Name": "uv_0_mode",
+                    "Value": "3"
+                  },
+                  {
+                    "Name": "epsilon",
+                    "Value": "0.25"
+                  },
+                  {
+                    "Name": "nphi",
+                    "Value": "720"
+                  },
+                  {
+                    "Name": "triangle_mode",
+                    "Value": "7"
+                  },
+                  {
+                    "Name": "vtx_bbl_x",
+                    "Value": "-0.519875"
+                  },
+                  {
+                    "Name": "vtx_bbl_y",
+                    "Value": "-0.038813"
+                  },
+                  {
+                    "Name": "vtx_bbl_z",
+                    "Value": "-0.130907"
+                  },
+                  {
+                    "Name": "vtx_h_x",
+                    "Value": "2.47784e-05"
+                  },
+                  {
+                    "Name": "vtx_h_y",
+                    "Value": "2.05887e-06"
+                  },
+                  {
+                    "Name": "vtx_h_z",
+                    "Value": "6.82516e-06"
+                  },
+                  {
+                    "Name": "uv_0_bbl_x",
+                    "Value": "0.116034"
+                  },
+                  {
+                    "Name": "uv_0_bbl_y",
+                    "Value": "0.047518"
+                  },
+                  {
+                    "Name": "uv_0_h_x",
+                    "Value": "0.00010301"
+                  },
+                  {
+                    "Name": "uv_0_h_y",
+                    "Value": "0.000106083"
+                  } ]
+                },
+                "VertexAttributeList": {
+                  "Normal": {
+                    "UniqueID": 10,
+                    "Array": { 
+                      "Uint32Array": { 
+                        "File": "model_file.bin",
+                        "Size": 3212,
+                        "Offset": 3448,
+                        "Encoding": "varint"
+                      }
+                    },
+                    "ItemSize": 2,
+                    "Type": "ARRAY_BUFFER"
+                  },
+                  "Tangent": {
+                    "UniqueID": 12,
+                    "Array": { 
+                      "Uint32Array": { 
+                        "File": "model_file.bin",
+                        "Size": 3212,
+                        "Offset": 15156,
+                        "Encoding": "varint"
+                      }
+                    },
+                    "ItemSize": 2,
+                    "Type": "ARRAY_BUFFER"
+                  },
+                  "TexCoord0": {
+                    "UniqueID": 11,
+                    "Array": { 
+                      "Int32Array": { 
+                        "File": "model_file.bin",
+                        "Size": 3212,
+                        "Offset": 27488,
+                        "Encoding": "varint"
+                      }
+                    },
+                    "ItemSize": 2,
+                    "Type": "ARRAY_BUFFER"
+                  },
+                  "Vertex": {
+                    "UniqueID": 9,
+                    "Array": { 
+                      "Int32Array": { 
+                        "File": "model_file.bin",
+                        "Size": 3212,
+                        "Offset": 35144,
+                        "Encoding": "varint"
+                      }
+                    },
+                    "ItemSize": 3,
+                    "Type": "ARRAY_BUFFER"
+                  }
+                }
+              }
+            },
+            {
+              "osg.Geometry": {
+                "UniqueID": 15,
+                "PrimitiveSetList": [ {
+                  "DrawElementsUShort": {
+                    "UniqueID": 17,
+                    "Indices": {
+                      "UniqueID": 18,
+                      "Array": { 
+                        "Uint16Array": { 
+                          "File": "model_file_wireframe.bin",
+                          "Size": 12544,
+                          "Offset": 0,
+                          "Encoding": "varint"
+                        }
+                      },
+                      "ItemSize": 1,
+                      "Type": "ELEMENT_ARRAY_BUFFER"
+                    },
+                    "Mode": "LINES"
+                  }
+                } ],
+                "UserDataContainer": {
+                  "UniqueID": 16,
+                  "Values": [ {
+                    "Name": "wireframe",
+                    "Value": "1"
+                  },
+                  {
+                    "Name": "attributes",
+                    "Value": "1"
+                  } ]
+                },
+                "VertexAttributeList": {
+                  "Vertex": {
+                    "UniqueID": 9
+                  }
+                }
+              }
+            } ]
+          }
+        } ],
+        "UserDataContainer": {
+          "UniqueID": 1,
+          "Values": [ {
+            "Name": "authoring_tool",
+            "Value": "Blender"
+          },
+          {
+            "Name": "source",
+            "Value": "wavefront"
+          } ]
+        }
+      }
+    } ]
+  }
+}

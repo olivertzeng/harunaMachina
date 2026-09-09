@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$basetexture" "backpack/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle_large"
+    "$translucent" 1
+    "$vertexcolor" 1
+    "$vertexalpha" 1
+}

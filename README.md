@@ -1,7 +1,12 @@
 # harunaMachina
 A mod replacing the Machina with Haruna's gun Ideal from Blue Archive
 
+![](assets/backpack.png)
+
 My first weapon mod replacing a model, will do more because it's kind of fun.
+
+Main credits goes to AlexEatDonuts for fixing issues with textures and giving team-colored Machina
+https://gamebanana.com/members/1437067
 
 Casual compatible, advised to use Cukei's Preloader
 https://gamebanana.com/tools/19049
